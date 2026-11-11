@@ -1,5 +1,8 @@
 # 📈 Automated Market Risk & P&L Attribution Analytics Engine
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://market-risk-pnl-attribution.streamlit.app/)
+🚀 **[Live Interactive Dashboard](https://market-risk-pnl-attribution.streamlit.app/)**
+
 End-to-end quantitative risk and data engineering pipeline designed to automate the processing, monitoring, and reporting of market risk metrics and P&L attribution for Fixed Income & Equities (FIC / EQD) trading desks.
 
 ## 🎯 Project Overview
@@ -15,10 +18,17 @@ In a trading floor environment, ensuring the integrity of Daily P&L and monitori
 
 ## 🛠️ Tech Stack
 * **Language:** Python 3.10+
+* **Framework:** Streamlit, Plotly
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, PyArrow
-* **Data Architecture:** Automated Parquet exports for BI dashboarding readiness
+* **Data Architecture:** Automated Parquet & CSV exports for BI dashboarding readiness
 
-## 🚀 How to Run (Google Colab / Jupyter)
+## 🚀 How to Run
+
+### Option A: Live Demo
+Access the hosted web application: 🚀 **[Live Interactive Dashboard](https://market-risk-pnl-attribution.streamlit.app/)**
+
+### Option B: Local Setup
 1. Clone the repository:
    ```bash
    git clone [https://github.com/ArjiNasim/market-risk-pnl-attribution.git](https://github.com/ArjiNasim/market-risk-pnl-attribution.git)
+   cd market-risk-pnl-attribution
